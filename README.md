@@ -1,12 +1,12 @@
 # Python TV Class and Interface
 
-This project includes two Python files which simulate the functionalities of a television. The `tvclass.py` file defines a `TV` class representing a television with attributes like channel, volume level, and power. The `CreateTV.py` file creates two instances of this class and provides an interface for the user to interact with these TV objects.
+This project includes two Python files which simulate the functionalities of a television. The `tv.py` file defines a `TV` class representing a television with attributes like channel, volume level, and power. The `CreateTV.py` file creates two instances of this class and provides an interface for the user to interact with these TV objects.
 
 ## Files
 
-1. `tvclass.py`: This file includes the `TV` class with methods to get and set the channel, get and set the volume, increase and decrease the channel and volume, and turn the power on and off.
+1. `tv.py`: This file includes the `TV` class with methods to get and set the channel, get and set the volume, increase and decrease the channel and volume, and turn the power on and off.
 
-2. `CreateTV.py`: This file imports the `TV` class from `tvclass.py` and creates two instances of it. It then provides a console-based interface for the user to interact with these two TVs.
+2. `CreateTV.py`: This file imports the `TV` class from `tv.py` and creates two instances of it. It then provides a console-based interface for the user to interact with these two TVs.
 
 ## Dependencies
 
@@ -18,7 +18,7 @@ You can install the required package using pip:
 
 ## Usage
 
-To use these files, first, run `tvclass.py` to ensure that the `TV` class is defined. Then, run `CreateTV.py` to create the TV objects and start interacting with them.
+To use these files, first, run `tv.py` to ensure that the `TV` class is defined. Then, run `CreateTV.py` to create the TV objects and start interacting with them.
 
 The `CreateTV.py` file will provide prompts to the user to control the power, channel, and volume of the two TV objects. Simply follow the prompts to interact with the TVs.
 
