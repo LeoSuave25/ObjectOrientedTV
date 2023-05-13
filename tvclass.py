@@ -3,10 +3,13 @@
 class TV:
 # Self Attributes for TV class which is channel, volume level, power
     def __init__(self, channel=1, volume_level=1, power=False):
-        if not 1 <= channel <= 120:
-            raise ValueError("Channel must be between 1 and 120.")
-        if not 0 <= volume_level <= 7:
-            raise ValueError("Volume level must be between 0 and 7.")
+        try:
+            if not 1 <= channel <= 120:
+                raise ValueError("Channel must be between 1 and 120.")
+            if not 0 <= volume_level <= 7:
+                raise ValueError("Volume level must be between 0 and 7.")
+        except ValueError as error:
+            print(error)
         self.channel = channel
         self.volume_level = volume_level
         self.power = power
