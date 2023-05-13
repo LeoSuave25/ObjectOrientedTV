@@ -1,6 +1,6 @@
 # OOP CREATE TV OBJECTS
 
-from tvclass import TV
+from tv import TV
 import pyfiglet as fig
 print("\033[36m","="*150,"\033[m")
 title = "TV OBJECTS"
