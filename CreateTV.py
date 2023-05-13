@@ -1,4 +1,11 @@
+# OOP CREATE TV OBJECTS
+
 from tvclass import TV
+import pyfiglet as fig
+print("\033[36m","="*150,"\033[m")
+title = "TV OBJECTS"
+print("\033[32m",fig.figlet_format(title),"\033[m")
+print(fig.figlet_format("Made by: Leoj M Suaverdez",font="bubble"))
 
 tv1 = TV()
 tv2 = TV()
@@ -63,3 +70,4 @@ while True:
         tv2.turn_off()
         print("\033[1;36mTV2 is still off\033[0m")
         break
+print("\033[36m","="*150,"\033[m")
